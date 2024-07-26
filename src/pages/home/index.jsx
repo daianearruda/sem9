@@ -1,4 +1,4 @@
-import { useContador } from '../../../contexts/contador'
+import { useContador } from '../../contexts/contador'
 
 export function HomePage() {
     const { contador, incrementar, decrementar } = useContador()

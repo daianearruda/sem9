@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import { LoginPage } from "../pages/login";
+import { LoginPage } from "../pages/login"
 import { CadastroPage } from "../pages/cadastro";
-import { HomePage } from "../pages/dashboard/home";
+import { HomePage } from "../pages/home";
 
 export function AppRoutes() {
     return (
